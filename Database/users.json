@@ -1,92 +1,297 @@
-[
-  {
-    "_id": "121",
-    "username": "iron_man",
-    "password": "stark123",
-    "firstName": "Tony",
-    "lastName": "Stark",
-    "email": "tony@stark.com",
-    "dob": "1970-05-29",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "122",
-    "username": "dark_knight",
-    "password": "wayne123",
-    "firstName": "Bruce",
-    "lastName": "Wayne",
-    "email": "bruce@wayne.com",
-    "dob": "1972-02-19",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "123",
-    "username": "capt_america",
-    "password": "rogers123",
-    "firstName": "Steve",
-    "lastName": "Rogers",
-    "email": "steve@avengers.com",
-    "dob": "1918-07-04",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "124",
-    "username": "black_widow",
-    "password": "romanoff123",
-    "firstName": "Natasha",
-    "lastName": "Romanoff",
-    "email": "natasha@avengers.com",
-    "dob": "1984-11-22",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "125",
-    "username": "thor_odinson",
-    "password": "mjolnir123",
-    "firstName": "Thor",
-    "lastName": "Odinson",
-    "email": "thor@asgard.com",
-    "dob": "982-05-25",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "126",
-    "username": "hulk_smash",
-    "password": "banner123",
-    "firstName": "Bruce",
-    "lastName": "Banner",
-    "email": "bruce@avengers.com",
-    "dob": "1969-12-18",
-    "role": "STUDENT"
-  },
-  {
-    "_id": "127",
-    "username": "ring_bearer",
-    "password": "shire123",
-    "firstName": "Frodo",
-    "lastName": "Baggins",
-    "email": "frodo@shire.com",
-    "dob": "1368-09-22",
-    "role": "FACULTY"
-  },
-  {
-    "_id": "128",
-    "username": "strider",
-    "password": "aragorn123",
-    "firstName": "Aragorn",
-    "lastName": "Elessar",
-    "email": "aragorn@gondor.com",
-    "dob": "2931-03-01",
-    "role": "FACULTY"
-  },
-  {
-    "_id": "129",
-    "username": "elf_archer",
-    "password": "legolas123",
-    "firstName": "Legolas",
-    "lastName": "Greenleaf",
-    "email": "legolas@mirkwood.com",
-    "dob": "2879-07-15",
-    "role": "FACULTY"
-  }
-]
+[{
+  "username": "ada",
+  "password": "ada123",
+  "firstName": "Ada",
+  "lastName": "Lovelace",
+  "email": "ada@lovelace.com",
+  "dob": "1815-12-10",
+  "role": "ADMIN"
+},
+{
+  "username": "white_wizard",
+  "password": "mithrandir42",
+  "firstName": "Gandalf",
+  "lastName": "the Grey",
+  "email": "gandalf@middleearth.com",
+  "dob": "unknown",
+  "role": "ADMIN"
+},
+{
+  "username": "evenstar",
+  "password": "arwen123",
+  "firstName": "Arwen",
+  "lastName": "Undómiel",
+  "email": "arwen@rivendell.com",
+  "dob": "241-03-01",
+  "role": "FACULTY"
+},
+{
+  "username": "lady_of_light",
+  "password": "lothlorien123",
+  "firstName": "Galadriel",
+  "lastName": "N/A",
+  "email": "galadriel@lothlorien.com",
+  "dob": "Years of the Trees",
+  "role": "FACULTY"
+},
+{
+  "username": "iron_man",
+  "password": "stark123",
+  "firstName": "Tony",
+  "lastName": "Stark",
+  "email": "tony@stark.com",
+  "dob": "1970-05-29",
+  "role": "STUDENT"
+},
+{
+  "username": "dark_knight",
+  "password": "wayne123",
+  "firstName": "Bruce",
+  "lastName": "Wayne",
+  "email": "bruce@wayne.com",
+  "dob": "1972-02-19",
+  "role": "STUDENT"
+},
+{
+  "username": "capt_america",
+  "password": "rogers123",
+  "firstName": "Steve",
+  "lastName": "Rogers",
+  "email": "steve@avengers.com",
+  "dob": "1918-07-04",
+  "role": "STUDENT"
+},
+{
+  "username": "black_widow",
+  "password": "romanoff123",
+  "firstName": "Natasha",
+  "lastName": "Romanoff",
+  "email": "natasha@avengers.com",
+  "dob": "1984-11-22",
+  "role": "STUDENT"
+},
+{
+  "username": "thor_odinson",
+  "password": "mjolnir123",
+  "firstName": "Thor",
+  "lastName": "Odinson",
+  "email": "thor@asgard.com",
+  "dob": "982-05-25",
+  "role": "STUDENT"
+},
+{
+  "username": "hulk_smash",
+  "password": "banner123",
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce@avengers.com",
+  "dob": "1969-12-18",
+  "role": "STUDENT"
+},
+{
+  "username": "ring_bearer",
+  "password": "shire123",
+  "firstName": "Frodo",
+  "lastName": "Baggins",
+  "email": "frodo@shire.com",
+  "dob": "1368-09-22",
+  "role": "FACULTY"
+},
+{
+  "username": "strider",
+  "password": "aragorn123",
+  "firstName": "Aragorn",
+  "lastName": "Elessar",
+  "email": "aragorn@gondor.com",
+  "dob": "2931-03-01",
+  "role": "FACULTY"
+},
+{
+  "username": "elf_archer",
+  "password": "legolas123",
+  "firstName": "Legolas",
+  "lastName": "Greenleaf",
+  "email": "legolas@mirkwood.com",
+  "dob": "2879-07-15",
+  "role": "FACULTY"
+},
+{
+  "username": "pandava_archer",
+  "password": "kuru123",
+  "firstName": "Arjuna",
+  "lastName": "Pandava",
+  "email": "arjuna@hastinapura.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "mithila_princess",
+  "password": "ramayana321",
+  "firstName": "Sita",
+  "lastName": "Janak",
+  "email": "sita@mithila.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "mighty_pandava",
+  "password": "gadadhari42",
+  "firstName": "Bhima",
+  "lastName": "Pandava",
+  "email": "bhima@hastinapura.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "panchali_princess",
+  "password": "dharma123",
+  "firstName": "Draupadi",
+  "lastName": "Panchal",
+  "email": "draupadi@panchala.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "flute_charmer",
+  "password": "mahabharata108",
+  "firstName": "Krishna",
+  "lastName": "Yadava",
+  "email": "krishna@dwaraka.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "username": "monkey_king",
+  "password": "wukong777",
+  "firstName": "Sun",
+  "lastName": "Wukong",
+  "email": "wukong@mountHuaguo.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "moon_goddess",
+  "password": "chang'e123",
+  "firstName": "Chang",
+  "lastName": "E",
+  "email": "change@moonpalace.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "third_lotus_prince",
+  "password": "nezha789",
+  "firstName": "Nezha",
+  "lastName": "N/A",
+  "email": "nezha@chalai.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "warrior_saint",
+  "password": "guanyu456",
+  "firstName": "Guan",
+  "lastName": "Yu",
+  "email": "guanyu@shu.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "great_flood_controller",
+  "password": "yuthegreat101",
+  "firstName": "Yu",
+  "lastName": "the Great",
+  "email": "yu@xiaDynasty.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "username": "magic_lamp_seeker",
+  "password": "aladdin123",
+  "firstName": "Aladdin",
+  "lastName": "N/A",
+  "email": "aladdin@arabianNights.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "nightly_storyteller",
+  "password": "scheherazade1001",
+  "firstName": "Scheherazade",
+  "lastName": "N/A",
+  "email": "scheherazade@persia.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "seven_seas_adventurer",
+  "password": "sinbad777",
+  "firstName": "Sinbad",
+  "lastName": "the Sailor",
+  "email": "sinbad@sailorAdventures.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "cave_opener",
+  "password": "openSesame40",
+  "firstName": "Ali",
+  "lastName": "Baba",
+  "email": "aliBaba@thieves.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "immortal_guide",
+  "password": "greenOne786",
+  "firstName": "Khidr",
+  "lastName": "N/A",
+  "email": "khidr@eternalWisdom.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "username": "heavenly_warrior",
+  "password": "michael777",
+  "firstName": "Michael",
+  "lastName": "Archangel",
+  "email": "michael@heavensrealm.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "divine_messenger",
+  "password": "gabriel123",
+  "firstName": "Gabriel",
+  "lastName": "Archangel",
+  "email": "gabriel@heavensmail.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "parting_seas",
+  "password": "moses10",
+  "firstName": "Moses",
+  "lastName": "N/A",
+  "email": "moses@exodus.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "giant_slayer",
+  "password": "davidKing42",
+  "firstName": "David",
+  "lastName": "N/A",
+  "email": "david@israelkingdom.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "username": "heavenly_gatekeeper",
+  "password": "peterRock12",
+  "firstName": "Peter",
+  "lastName": "Saint",
+  "email": "peter@pearlygates.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+}]

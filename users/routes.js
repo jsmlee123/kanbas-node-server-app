@@ -23,7 +23,7 @@ function UserRoutes(app) {
     const status = await dao.updateUser(userId, req.body);
     const currentUser = await dao.findUserById(userId);
     req.session['currentUser'] = currentUser;
-    res.json(userId);
+    res.json(status);
   };
 
   const signup = async (req, res) => {
@@ -60,6 +60,5 @@ function UserRoutes(app) {
   app.delete("/api/users/:userId", deleteUser);
   app.post("/api/users/signup", signup);
   app.post("/api/users/signout", signout);
-  //
 }
 export default UserRoutes;
